@@ -1,44 +1,64 @@
-
-
-.main-form {
-
-    position: relative;
-    height: 5rem;
-    width: 55rem;
-    bottom: 250px;
-    
-    overflow: hidden;
-
-    border-radius: 20px;
-    
-    box-shadow: 0 1rem 8rem rgba(94, 94, 94, 0.6);
-
-    background-color: $color-white;
-    
+#form {
+  margin: 0 1rem;
+  min-height: 10vh;
+  width: 100%;
 }
 
-.main-form .input-box {
-
-    flex: 1;
-
-    border: relative;
-    border-color: $color-black;
-    display: flex;
-    flex-direction: row;
-    overflow-wrap: break-word;
-
-
+form {
+  display: flex;
+  font-size: 1.7rem;
+  justify-content: center;
+  margin: 15px 0;
+  padding: 0.8rem;
+  width: 100%;
 }
-.main-form .input {
-    width: 100%;
-    border: none;
 
-    background-color: transparent;
+form input {
+  padding: 20px;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  /* border-radius: 15; */
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  max-width: 500px;
+  transition: background-color 200ms ease-in-out;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
 
-    color: $color-black;
-    font-size: 1.6rem;
-    font-family: roboto;
+form button {
+  padding: 20px;
+  font-size: 17px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  min-width: 100px;
+}
 
-    resize: none;
+button {
+  border: none;
+  outline: none;
+  background-color: rgb(255, 255, 255);
+}
 
+button:hover {
+  cursor: pointer;
+  background-color: #10333b38
+}
+
+@media only screen and (max-width: 400px) {
+    form {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    form input {
+        border-radius: 17px;
+    }
+
+    form button {
+        border-radius: 15px;
+        margin-top: 15px;
+        width: 50%;
+    }
 }

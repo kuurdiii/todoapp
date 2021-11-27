@@ -1,0 +1,36 @@
+#myUnOrdList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+}
+
+.todo {
+  margin: 5rem;
+  background: rgb(245, 214, 214);
+  /* color: black; */
+  font-size: 19px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.35em 0.5em;
+  border-radius: 16px;
+  transition: background-color 200ms ease-in-out;
+}
+
+.todo-list {
+  min-width: 25%;
+  list-style: none;
+}
+
+.todo li {
+  padding: 7px;
+  /* word-wrap: break-word; */
+  /* flex-wrap: wrap; */
+  font-size: 20px;
+  flex: 1; /* To push the trash and the check button to the right */
+  border-radius: 30px;
+
+  /* wraps the links */
+  overflow-wrap: anywhere;
+}
