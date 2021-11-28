@@ -14,31 +14,32 @@ form {
 }
 
 form input {
-  padding: 20px;
-  font-size: 17px;
-  border: none;
-  outline: none;
-  /* border-radius: 15; */
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  max-width: 500px;
-  transition: background-color 200ms ease-in-out;
-  width: 100%;
-  background-color: rgb(255, 255, 255);
+      padding: 20px;
+      font-size: 17px;
+      border: none;
+      outline: none;
+      /* border-radius: 15; */
+      border-top-left-radius: 15px;
+      border-bottom-left-radius: 15px;
+      max-width: 500px;
+      transition: background-color 200ms ease-in-out;
+      width: 100%;
+      background-color: rgb(255, 255, 255);
 }
 
 form button {
-  padding: 20px;
-  font-size: 17px;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  min-width: 100px;
+        padding: 20px;
+        font-size: 17px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        min-width: 100px;
+        
 }
 
 button {
-  border: none;
-  outline: none;
-  background-color: rgb(255, 255, 255);
+	border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
 }
 
 button:hover {
