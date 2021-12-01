@@ -1,36 +1,29 @@
-#myUnOrdList {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 1200px;
+.task-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.todo {
-  margin: 5rem;
-  background: rgb(245, 214, 214);
-  /* color: black; */
-  font-size: 19px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.35em 0.5em;
-  border-radius: 16px;
-  transition: background-color 200ms ease-in-out;
+.task-list {
+    min-width: 30%;
+    list-style: none;
 }
 
-.todo-list {
-  min-width: 25%;
-  list-style: none;
-}
+.task {
+    padding: 10px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.726);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.212);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    transition: all .455s ease;
+  }
 
-.todo li {
-  padding: 7px;
-  /* word-wrap: break-word; */
-  /* flex-wrap: wrap; */
-  font-size: 20px;
-  flex: 1; /* To push the trash and the check button to the right */
-  border-radius: 30px;
-
-  /* wraps the links */
-  overflow-wrap: anywhere;
+.task li {
+    flex: 1;
 }
