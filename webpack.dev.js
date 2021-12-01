@@ -9,12 +9,4 @@ module.exports = merge(common, {
     path: path.resolve(__dirname, 'dist'),
   },
   devtool: 'source-map',
-  module: {
-    rules: [
-      {
-        test: /\.scss$/,
-        use: ['style-loader', 'css-loader', 'sass-loader'],
-      },
-    ],
-},
 });
