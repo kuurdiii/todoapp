@@ -12,8 +12,7 @@ form input {
 }
 
 form button {
-        padding: 20px;
-        font-size: 22px;
+        padding: 33px;
         border: none;
         outline: none;
         border-top-right-radius: 15px;
@@ -24,15 +23,10 @@ form button {
     
 form button:hover {
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.212);
+  background-color: rgba(255, 255, 255, 0.397);
 }
-button {
-    padding: 20px;
-    font-size: 22px;
-    border: none;
-    outline: none;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: rgb(255, 255, 255);
-    transition: all .2s ease;
+
+.gg-math-plus {
+    --ggs: 1.5;
+    color: rgba(173, 108, 108, 0.795);
 }
