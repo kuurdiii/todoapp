@@ -16,8 +16,6 @@ document.addEventListener("DOMContentLoaded", getTasks);
 
 
 
-
-
 // functions
 function addTask(event) {
     // to prevent the browser form refreshing, add event.prevent();
@@ -29,29 +27,37 @@ function addTask(event) {
 
     // this will create the li
     const newTask = document.createElement('li');
-    newTask.innerText = _taskInput.value;
+    if (_taskInput.value === '') {
+        alert("Input must not be empty. Write something!");
+    } 
+    else {
+    
+        newTask.innerText = _taskInput.value;
+        newTask.classList.add("task-item");
+        // this will append it onto task DIV
+        taskDiv.appendChild(newTask);
 
-    saveLocalTasks(_taskInput.value);
+        // saving to local storage
+        saveLocalTasks(_taskInput.value);
 
-    // this will append it onto task DIV
-    newTask.classList.add("task-item");
-    taskDiv.appendChild(newTask);
-    _taskInput.value = "";
+        // clear input field
+        _taskInput.value = "";
 
-    // completed button 
-    const completedButton = document.createElement('button');
-    completedButton.innerHTML = `<i class="gg-check"></i>`;
-    completedButton.classList.add('check-btn');
-    taskDiv.appendChild(completedButton);
+        // completed button 
+        const completedButton = document.createElement('button');
+        completedButton.innerHTML = `<i class="gg-check"></i>`;
+        completedButton.classList.add('check-btn');
+        taskDiv.appendChild(completedButton);
 
-    // delete button
-    const deleteButton = document.createElement('button');
-    deleteButton.innerHTML = `<i class="gg-trash"></i>`;
-    deleteButton.classList.add('trash-btn');
-    taskDiv.appendChild(deleteButton);
+        // delete button
+        const deleteButton = document.createElement('button');
+        deleteButton.innerHTML = `<i class="gg-trash"></i>`;
+        deleteButton.classList.add('trash-btn');
+        taskDiv.appendChild(deleteButton);
 
-    // this will append it onto task list
-    _taskList.appendChild(taskDiv);
+        // this will append it onto task list
+        _taskList.appendChild(taskDiv);
+    }
 }
 
 function deleteTask(e) {

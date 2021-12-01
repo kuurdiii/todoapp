@@ -21,6 +21,7 @@
     justify-content: space-between;
     align-items: center;
     border: none;
+    border-radius: 5px;
     outline: none;
     background-color: rgba(255, 255, 255, 0.178);
     transition: all .455s ease;
@@ -70,4 +71,6 @@
     opacity: 0;
   }
 
-  
+  alert {
+      margin-right: 50px;
+  }
