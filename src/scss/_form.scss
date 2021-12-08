@@ -1,6 +1,8 @@
 
 form input {
       padding: 20px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
       font-size: 22px;
       max-width: 500px;
       width: 100%;
@@ -13,9 +15,17 @@ form input {
       transition: all .2s ease;
 }
 
+form input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+
+}
+
+
 form button {
         padding: 20px;
         font-size: 22px;
+        font-family: 'Poppins', sans-serif;
         border: none;
         outline: none;
         border-top-right-radius: 15px;
