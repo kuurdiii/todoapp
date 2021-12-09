@@ -18,11 +18,13 @@ $color-blue: #6bbedf;
 }
 
 
+
 body {
-  font-family: roboto;
   min-height: 100vh;
   color: white;
-  background-image: linear-gradient(10deg, #0e687c, #a01f1fb4);
+  background: url(https://images.unsplash.com/photo-1482440308425-276ad0f28b19);
+  background-size: cover;
+  //background-image: linear-gradient(10deg, #0e687c, #a01f1fb4);
 }
 
 header {
@@ -66,7 +68,7 @@ header, form {
 
 @media only screen and (max-width: 400px) {
     header {
-        font-size: 1.5rem;
+        font-size: 3rem;
     }
     h1 {
         margin-bottom: -1rem;
@@ -76,7 +78,7 @@ header, form {
 
 @media only screen and (max-width: 800px) {
     header {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 }
 
