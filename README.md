@@ -220,7 +220,7 @@ Use this space to list resources you find helpful and would like to give credit 
 
 
 
-<!-- MARKDOWN LINKS & IMAGES -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/kuurdiii/todoapp.svg?style=for-the-badge
 [contributors-url]: https://github.com/kuurdiii/todoapp/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/kuurdiii/todoapp.svg?style=for-the-badge
