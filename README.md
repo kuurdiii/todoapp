@@ -185,7 +185,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -196,7 +196,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/kuurdiii/todoapp](https://github.com/kuurdiii/todoapp)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -230,7 +230,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [issues-shield]: https://img.shields.io/github/issues/kuurdiii/todoapp.svg?style=for-the-badge
 [issues-url]: https://github.com/kuurdiii/todoapp/issues
 [license-shield]: https://img.shields.io/github/license/kuurdiii/todoapp.svg?style=for-the-badge
-[license-url]: https://github.com/kuurdiii/todoapp/blob/main/LICENSE
+[license-url]: https://github.com/kuurdiii/todoapp/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/kurdi1128
 [product-screenshot]: src/assets/todoapp.png
